@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(knapsack_dp
     src/main.cpp
     src/knapsack_dp.cpp
+    src/knapsack_backtrack.cpp
     src/data_loader.cpp
 )
 
